@@ -1,0 +1,31 @@
+# Compiled binaries
+tools/cpu-topology
+tools/memory-inspector
+tools/net-topology
+tools/bandwidth-monitor
+tools/packet-sniffer
+tools/ring-latency
+tools/echo-server
+tools/echo-client
+tools/mpi-ping-pong
+tools/mpi-allreduce
+
+# Build artefacts
+*.o
+*.a
+
+# Generated at runtime
+logs/
+*.png
+build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
